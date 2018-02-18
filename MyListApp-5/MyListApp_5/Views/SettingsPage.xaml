@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyListApp_5.SettingsPage"
+             Title="SettingsPage">
+  <ScrollView>
+    <StackLayout Padding="10">
+        <Label x:Name="myLabel" 
+             Text="A Simple Label" 
+             Font="Large"
+             WidthRequest="200"/>
+
+         <Entry x:Name="myEntry"
+             Placeholder="Name"
+             WidthRequest="200"/>
+
+         <Button x:Name="myButton"
+             Text="Click me"
+             Clicked="myButton_Clicked"
+             WidthRequest="200"/>
+        </StackLayout>
+  </ScrollView>
+</ContentPage>
